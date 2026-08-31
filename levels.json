@@ -1,0 +1,380 @@
+[
+  {
+    "level": 1,
+    "name": "Trainyard Infiltration",
+    "season": "Winter",
+    "objective_type": "HACK_TERMINAL",
+    "objective_text": "Hack the main security terminal at the military outpost.",
+    "player_spawn": [0, 1, -25],
+    "extraction_pos": [0, 1, 20],
+    "structures": [
+      {"type": "building", "pos": [0, 2, 10], "scale": [8, 4, 8], "color": "gray"},
+      {"type": "guard_tower", "pos": [-15, 4, 10], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "radar_dish", "pos": [15, 3, 15], "scale": [4, 6, 4], "color": "white"},
+      {"type": "loot_crate", "pos": [-5, 1, -10], "scale": [1.5, 1.5, 1.5], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [-10, 1, 0], "waypoints": [[-10, 1, 0], [-10, 1, 15]]},
+      {"pos": [10, 1, 5], "waypoints": [[10, 1, 5], [15, 1, -5]]}
+    ]
+  },
+  {
+    "level": 2,
+    "name": "SAM Site Alpha",
+    "season": "Spring",
+    "objective_type": "DESTROY_OBJECTIVE",
+    "objective_text": "Plant explosive device at the radar dish console.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [12, 1, 18],
+    "structures": [
+      {"type": "radar_dish", "pos": [12, 3, 18], "scale": [4, 6, 4], "color": "white"},
+      {"type": "building", "pos": [-8, 2, 5], "scale": [10, 4, 6], "color": "olive"},
+      {"type": "guard_tower", "pos": [10, 4, -10], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "loot_crate", "pos": [2, 1, 0], "scale": [1.5, 1.5, 1.5], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 0], "waypoints": [[0, 1, 0], [10, 1, 0]]},
+      {"pos": [-8, 1, 12], "waypoints": [[-8, 1, 12], [-8, 1, -2]]},
+      {"pos": [10, 1, -8], "waypoints": [[10, 1, -8], [10, 1, 5]]}
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Military Airfield",
+    "season": "Summer",
+    "objective_type": "RETRIEVE_INTEL",
+    "objective_text": "Retrieve flight manifest intel documents from hangar.",
+    "player_spawn": [-25, 1, -25],
+    "extraction_pos": [0, 1, 22],
+    "structures": [
+      {"type": "building", "pos": [0, 2.5, 20], "scale": [14, 5, 10], "color": "gray"},
+      {"type": "guard_tower", "pos": [-20, 4, 15], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [20, 4, 15], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "loot_crate", "pos": [-10, 1, -5], "scale": [1.5, 1.5, 1.5], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [-15, 1, 10], "waypoints": [[-15, 1, 10], [-5, 1, 10]]},
+      {"pos": [15, 1, 10], "waypoints": [[15, 1, 10], [5, 1, 10]]},
+      {"pos": [0, 1, 5], "waypoints": [[0, 1, 5], [0, 1, -10]]}
+    ]
+  },
+  {
+    "level": 4,
+    "name": "GOD High Command",
+    "season": "Autumn",
+    "objective_type": "ELIMINATE_TARGET",
+    "objective_text": "Eliminate the renegade commander stationed at the HQ.",
+    "player_spawn": [0, 1, -35],
+    "extraction_pos": [0, 1, 25],
+    "structures": [
+      {"type": "building", "pos": [0, 3, 25], "scale": [12, 6, 12], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [-15, 4, 0], "scale": [3, 8, 3], "color": "gray"},
+      {"type": "radar_dish", "pos": [18, 3, 20], "scale": [4, 6, 4], "color": "white"},
+      {"type": "loot_crate", "pos": [5, 1, -15], "scale": [1.5, 1.5, 1.5], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 20], "waypoints": [[0, 1, 20], [-5, 1, 20], [5, 1, 20]]},
+      {"pos": [-12, 1, 0], "waypoints": [[-12, 1, 0], [-12, 1, 15]]},
+      {"pos": [12, 1, 0], "waypoints": [[12, 1, 0], [12, 1, 15]]}
+    ]
+  },
+  {
+    "level": 5,
+    "name": "Radar Installation",
+    "season": "Winter",
+    "objective_type": "DESTROY_OBJECTIVE",
+    "objective_text": "Destroy the primary long-range radar array.",
+    "player_spawn": [-30, 1, -20],
+    "extraction_pos": [15, 1, 25],
+    "structures": [
+      {"type": "radar_dish", "pos": [15, 3, 25], "scale": [5, 8, 5], "color": "white"},
+      {"type": "building", "pos": [-10, 2, 10], "scale": [8, 4, 8], "color": "gray"},
+      {"type": "guard_tower", "pos": [0, 4, -10], "scale": [3, 8, 3], "color": "dark_gray"}
+    ],
+    "enemies": [
+      {"pos": [10, 1, 20], "waypoints": [[10, 1, 20], [20, 1, 20]]},
+      {"pos": [-10, 1, 0], "waypoints": [[-10, 1, 0], [0, 1, 0]]},
+      {"pos": [0, 1, -5], "waypoints": [[0, 1, -5], [0, 1, 10]]}
+    ]
+  },
+  {
+    "level": 6,
+    "name": "Nuclear Silo Outskirts",
+    "season": "Spring",
+    "objective_type": "HACK_TERMINAL",
+    "objective_text": "Hack silo door control override terminal.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 15],
+    "structures": [
+      {"type": "building", "pos": [0, 2, 15], "scale": [10, 4, 10], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [-18, 4, 15], "scale": [3, 8, 3], "color": "gray"},
+      {"type": "guard_tower", "pos": [18, 4, 15], "scale": [3, 8, 3], "color": "gray"}
+    ],
+    "enemies": [
+      {"pos": [-8, 1, 10], "waypoints": [[-8, 1, 10], [8, 1, 10]]},
+      {"pos": [0, 1, -10], "waypoints": [[0, 1, -10], [-15, 1, -10]]},
+      {"pos": [12, 1, 5], "waypoints": [[12, 1, 5], [12, 1, -12]]}
+    ]
+  },
+  {
+    "level": 7,
+    "name": "Border Crossing",
+    "season": "Summer",
+    "objective_type": "RETRIEVE_INTEL",
+    "objective_text": "Steal border patrol logbook.",
+    "player_spawn": [-20, 1, -20],
+    "extraction_pos": [10, 1, 10],
+    "structures": [
+      {"type": "building", "pos": [10, 2, 10], "scale": [6, 4, 6], "color": "olive"},
+      {"type": "guard_tower", "pos": [-10, 4, 10], "scale": [3, 8, 3], "color": "dark_gray"}
+    ],
+    "enemies": [
+      {"pos": [5, 1, 5], "waypoints": [[5, 1, 5], [15, 1, 5]]},
+      {"pos": [-10, 1, 0], "waypoints": [[-10, 1, 0], [-10, 1, 15]]}
+    ]
+  },
+  {
+    "level": 8,
+    "name": "Mountain Depot",
+    "season": "Autumn",
+    "objective_type": "DESTROY_OBJECTIVE",
+    "objective_text": "Sabotage supply trucks at mountain depot.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 20],
+    "structures": [
+      {"type": "building", "pos": [0, 2, 20], "scale": [12, 4, 8], "color": "gray"},
+      {"type": "loot_crate", "pos": [-8, 1, 15], "scale": [2, 2, 2], "color": "khaki"},
+      {"type": "loot_crate", "pos": [8, 1, 15], "scale": [2, 2, 2], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [-5, 1, 10], "waypoints": [[-5, 1, 10], [5, 1, 10]]},
+      {"pos": [0, 1, -10], "waypoints": [[0, 1, -10], [10, 1, -10]]},
+      {"pos": [-12, 1, 5], "waypoints": [[-12, 1, 5], [-12, 1, 18]]}
+    ]
+  },
+  {
+    "level": 9,
+    "name": "Communications Array",
+    "season": "Winter",
+    "objective_type": "HACK_TERMINAL",
+    "objective_text": "Disable global encryption array.",
+    "player_spawn": [0, 1, -25],
+    "extraction_pos": [0, 1, 22],
+    "structures": [
+      {"type": "radar_dish", "pos": [0, 3, 22], "scale": [6, 8, 6], "color": "white"},
+      {"type": "building", "pos": [-15, 2, 10], "scale": [8, 4, 8], "color": "dark_gray"}
+    ],
+    "enemies": [
+      {"pos": [-5, 1, 15], "waypoints": [[-5, 1, 15], [5, 1, 15]]},
+      {"pos": [-12, 1, 0], "waypoints": [[-12, 1, 0], [-12, 1, 12]]}
+    ]
+  },
+  {
+    "level": 10,
+    "name": "GULAG Complex",
+    "season": "Spring",
+    "objective_type": "ELIMINATE_TARGET",
+    "objective_text": "Eliminate the prison high warden.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 25],
+    "structures": [
+      {"type": "building", "pos": [0, 3, 25], "scale": [16, 6, 12], "color": "gray"},
+      {"type": "guard_tower", "pos": [-20, 4, 20], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [20, 4, 20], "scale": [3, 8, 3], "color": "dark_gray"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 18], "waypoints": [[0, 1, 18], [-8, 1, 18], [8, 1, 18]]},
+      {"pos": [-15, 1, 10], "waypoints": [[-15, 1, 10], [-15, 1, -5]]},
+      {"pos": [15, 1, 10], "waypoints": [[15, 1, 10], [15, 1, -5]]},
+      {"pos": [0, 1, -10], "waypoints": [[0, 1, -10], [10, 1, -10]]}
+    ]
+  },
+  {
+    "level": 11,
+    "name": "Port Logistics",
+    "season": "Summer",
+    "objective_type": "RETRIEVE_INTEL",
+    "objective_text": "Retrieve shipping manifest from harbor master office.",
+    "player_spawn": [-25, 1, -25],
+    "extraction_pos": [10, 1, 15],
+    "structures": [
+      {"type": "building", "pos": [10, 2, 15], "scale": [10, 4, 8], "color": "olive"},
+      {"type": "loot_crate", "pos": [-5, 1, 0], "scale": [2, 2, 4], "color": "khaki"},
+      {"type": "loot_crate", "pos": [5, 1, 0], "scale": [2, 2, 4], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [5, 1, 10], "waypoints": [[5, 1, 10], [15, 1, 10]]},
+      {"pos": [-10, 1, -5], "waypoints": [[-10, 1, -5], [0, 1, -5]]}
+    ]
+  },
+  {
+    "level": 12,
+    "name": "Weapon Factory",
+    "season": "Autumn",
+    "objective_type": "DESTROY_OBJECTIVE",
+    "objective_text": "Destroy prototype warhead assembly assembly line.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 20],
+    "structures": [
+      {"type": "building", "pos": [0, 2.5, 20], "scale": [14, 5, 10], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [-15, 4, 0], "scale": [3, 8, 3], "color": "gray"}
+    ],
+    "enemies": [
+      {"pos": [-5, 1, 12], "waypoints": [[-5, 1, 12], [5, 1, 12]]},
+      {"pos": [10, 1, -5], "waypoints": [[10, 1, -5], [10, 1, 10]]},
+      {"pos": [-10, 1, -15], "waypoints": [[-10, 1, -15], [0, 1, -15]]}
+    ]
+  },
+  {
+    "level": 13,
+    "name": "Submarine Base",
+    "season": "Winter",
+    "objective_type": "HACK_TERMINAL",
+    "objective_text": "Hack sub pen sonar tracking station.",
+    "player_spawn": [-20, 1, -20],
+    "extraction_pos": [12, 1, 18],
+    "structures": [
+      {"type": "building", "pos": [12, 2, 18], "scale": [8, 4, 8], "color": "gray"},
+      {"type": "guard_tower", "pos": [-10, 4, 15], "scale": [3, 8, 3], "color": "dark_gray"}
+    ],
+    "enemies": [
+      {"pos": [5, 1, 12], "waypoints": [[5, 1, 12], [15, 1, 12]]},
+      {"pos": [-10, 1, 0], "waypoints": [[-10, 1, 0], [0, 1, 0]]}
+    ]
+  },
+  {
+    "level": 14,
+    "name": "Chemical Plant",
+    "season": "Spring",
+    "objective_type": "DESTROY_OBJECTIVE",
+    "objective_text": "Neutralize toxic chemical storage tanks.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 22],
+    "structures": [
+      {"type": "building", "pos": [0, 3, 22], "scale": [10, 6, 10], "color": "olive"},
+      {"type": "guard_tower", "pos": [-15, 4, 10], "scale": [3, 8, 3], "color": "gray"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 12], "waypoints": [[0, 1, 12], [-8, 1, 12]]},
+      {"pos": [10, 1, 0], "waypoints": [[10, 1, 0], [10, 1, 15]]},
+      {"pos": [-10, 1, -10], "waypoints": [[-10, 1, -10], [0, 1, -10]]}
+    ]
+  },
+  {
+    "level": 15,
+    "name": "Research Outpost",
+    "season": "Summer",
+    "objective_type": "RETRIEVE_INTEL",
+    "objective_text": "Extract research hard drive from laboratory.",
+    "player_spawn": [-25, 1, -25],
+    "extraction_pos": [15, 1, 20],
+    "structures": [
+      {"type": "building", "pos": [15, 2, 20], "scale": [8, 4, 8], "color": "gray"},
+      {"type": "radar_dish", "pos": [-10, 3, 10], "scale": [4, 6, 4], "color": "white"}
+    ],
+    "enemies": [
+      {"pos": [10, 1, 15], "waypoints": [[10, 1, 15], [18, 1, 15]]},
+      {"pos": [-8, 1, 0], "waypoints": [[-8, 1, 0], [-8, 1, 12]]}
+    ]
+  },
+  {
+    "level": 16,
+    "name": "Hydroelectric Dam",
+    "season": "Autumn",
+    "objective_type": "HACK_TERMINAL",
+    "objective_text": "Override floodgate control terminal.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 25],
+    "structures": [
+      {"type": "building", "pos": [0, 3, 25], "scale": [14, 6, 8], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [-18, 4, 15], "scale": [3, 8, 3], "color": "gray"},
+      {"type": "guard_tower", "pos": [18, 4, 15], "scale": [3, 8, 3], "color": "gray"}
+    ],
+    "enemies": [
+      {"pos": [-10, 1, 18], "waypoints": [[-10, 1, 18], [10, 1, 18]]},
+      {"pos": [0, 1, 5], "waypoints": [[0, 1, 5], [0, 1, -10]]},
+      {"pos": [12, 1, -5], "waypoints": [[12, 1, -5], [12, 1, 10]]}
+    ]
+  },
+  {
+    "level": 17,
+    "name": "Secret Bunker Alpha",
+    "season": "Winter",
+    "objective_type": "ELIMINATE_TARGET",
+    "objective_text": "Eliminate Bunker General Priestly.",
+    "player_spawn": [0, 1, -30],
+    "extraction_pos": [0, 1, 20],
+    "structures": [
+      {"type": "building", "pos": [0, 3, 20], "scale": [12, 6, 12], "color": "gray"},
+      {"type": "guard_tower", "pos": [-15, 4, 10], "scale": [3, 8, 3], "color": "dark_gray"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 15], "waypoints": [[0, 1, 15], [-6, 1, 15], [6, 1, 15]]},
+      {"pos": [-10, 1, 0], "waypoints": [[-10, 1, 0], [-10, 1, 10]]},
+      {"pos": [10, 1, 0], "waypoints": [[10, 1, 0], [10, 1, 10]]}
+    ]
+  },
+  {
+    "level": 18,
+    "name": "Satellite Command",
+    "season": "Spring",
+    "objective_type": "DESTROY_OBJECTIVE",
+    "objective_text": "Destroy orbital target tracker dish.",
+    "player_spawn": [-25, 1, -25],
+    "extraction_pos": [15, 1, 20],
+    "structures": [
+      {"type": "radar_dish", "pos": [15, 3, 20], "scale": [6, 8, 6], "color": "white"},
+      {"type": "building", "pos": [-10, 2, 10], "scale": [8, 4, 8], "color": "olive"}
+    ],
+    "enemies": [
+      {"pos": [10, 1, 15], "waypoints": [[10, 1, 15], [18, 1, 15]]},
+      {"pos": [-8, 1, 0], "waypoints": [[-8, 1, 0], [0, 1, 0]]},
+      {"pos": [0, 1, -12], "waypoints": [[0, 1, -12], [10, 1, -12]]}
+    ]
+  },
+  {
+    "level": 19,
+    "name": "Launch Facility",
+    "season": "Summer",
+    "objective_type": "HACK_TERMINAL",
+    "objective_text": "Abort nuclear launch sequence at main terminal.",
+    "player_spawn": [0, 1, -35],
+    "extraction_pos": [0, 1, 28],
+    "structures": [
+      {"type": "building", "pos": [0, 4, 28], "scale": [16, 8, 14], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [-20, 4, 20], "scale": [3, 8, 3], "color": "gray"},
+      {"type": "guard_tower", "pos": [20, 4, 20], "scale": [3, 8, 3], "color": "gray"},
+      {"type": "radar_dish", "pos": [-15, 3, 0], "scale": [4, 6, 4], "color": "white"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 20], "waypoints": [[0, 1, 20], [-10, 1, 20], [10, 1, 20]]},
+      {"pos": [-15, 1, 10], "waypoints": [[-15, 1, 10], [-15, 1, -10]]},
+      {"pos": [15, 1, 10], "waypoints": [[15, 1, 10], [15, 1, -10]]},
+      {"pos": [0, 1, -15], "waypoints": [[0, 1, -15], [-10, 1, -15]]}
+    ]
+  },
+  {
+    "level": 20,
+    "name": "Final Stronghold - Ekk HQ",
+    "season": "Winter",
+    "objective_type": "ELIMINATE_TARGET",
+    "objective_text": "Eliminate General Ekk and escape the complex.",
+    "player_spawn": [0, 1, -40],
+    "extraction_pos": [0, 1, 30],
+    "structures": [
+      {"type": "building", "pos": [0, 4, 30], "scale": [20, 8, 16], "color": "black"},
+      {"type": "guard_tower", "pos": [-22, 4, 25], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "guard_tower", "pos": [22, 4, 25], "scale": [3, 8, 3], "color": "dark_gray"},
+      {"type": "radar_dish", "pos": [18, 3, 5], "scale": [5, 7, 5], "color": "white"},
+      {"type": "loot_crate", "pos": [-10, 1, -20], "scale": [2, 2, 2], "color": "khaki"},
+      {"type": "loot_crate", "pos": [10, 1, -20], "scale": [2, 2, 2], "color": "khaki"}
+    ],
+    "enemies": [
+      {"pos": [0, 1, 22], "waypoints": [[0, 1, 22], [-12, 1, 22], [12, 1, 22]]},
+      {"pos": [-15, 1, 10], "waypoints": [[-15, 1, 10], [-15, 1, -15]]},
+      {"pos": [15, 1, 10], "waypoints": [[15, 1, 10], [15, 1, -15]]},
+      {"pos": [-8, 1, -5], "waypoints": [[-8, 1, -5], [8, 1, -5]]},
+      {"pos": [0, 1, -25], "waypoints": [[0, 1, -25], [12, 1, -25]]}
+    ]
+  }
+]
